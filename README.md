@@ -3,7 +3,7 @@ LILIN edge AI Python Plug-in programming tuturial
 
 The purpose of the Python is to allow a developer to write Python script running on the Edge AI camera.  <BR>
 
-![image]([https://github.com/LILINOpenGitHub/LILIN-Edge-AI-Python-Plug-in/blob/main/images/diagram.jpg])
+![image](https://github.com/LILINOpenGitHub/LILIN-Edge-AI-Python-Plug-in/blob/main/images/diagram.jpg)
 
 (1)	Allow a devloper to use HTTP to communicate with 127.0.0.1:8592 for metadata via AI API <BR>
 (2)	Allow a devloper to use JSON for writing JSON configuration file. <BR>
