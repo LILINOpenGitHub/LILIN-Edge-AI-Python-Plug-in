@@ -7,6 +7,8 @@ The purpose of the Python is to allow a developer to write Python script running
 (2)	Allow a devloper to use JSON for writing JSON configuration file. <BR>
 (3)	Allow a devloper to use to communicate a HTTPs cloud. <BR>
 
-### Support Python import
+### Support Python imports
 Support import JSON, HTTP, HTTPs, DNS, socket, date &time, base64, file IO read/write
+
+
 
