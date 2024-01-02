@@ -3,7 +3,7 @@ LILIN edge AI Python Plug-in programming tuturial
 
 The purpose of the Python is to allow a developer to write Python script running on the Edge AI camera.  There is no PC needed.  The Python code can be uploaded and run on the edge AI camera.<BR>
 
-The Python plug-in can be downloaded at https://www.dropbox.com/scl/fo/tkb9qgg2bktrp4g9ccxjo/h?rlkey=z8dehdsqoe9pahfj0mctdmalj&dl=0.
+The Python plug-in can be downloaded [here](https://www.dropbox.com/scl/fo/tkb9qgg2bktrp4g9ccxjo/h?rlkey=z8dehdsqoe9pahfj0mctdmalj&dl=0).
 
 ![image](https://github.com/LILINOpenGitHub/LILIN-Edge-AI-Python-Plug-in/blob/main/images/diagram.jpg)
 
