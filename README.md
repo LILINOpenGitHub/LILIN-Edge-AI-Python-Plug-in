@@ -15,6 +15,6 @@ The Python plug-in can be downloaded [here](https://www.dropbox.com/scl/fo/tkb9q
 Support import JSON, HTTP, HTTPs, DNS, socket, date &time, base64, file IO read/write
 
 ### Installation ###
-After installing Python plugin, you will see AI plugin and Python plugin.
+After installing Python plugin, you will see AI plug-in and Python plug-in.  Make sure that both plug-ins are checked.
 ![image](https://github.com/LILINOpenGitHub/LILIN-Edge-AI-Python-Plug-in/blob/main/images/pythoninstallation.jpg)
 
