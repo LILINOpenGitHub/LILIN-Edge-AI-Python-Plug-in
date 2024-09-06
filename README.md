@@ -22,3 +22,5 @@ After installing Python plug-in, you will see AI plug-in and Python plug-in.  Ma
 After enabling both Python and AI plug-ins, please open AI plug-in.  Visit System->Python page and click the Python button for openning Python Editor.
 
 ![image](https://github.com/LILINOpenGitHub/LILIN-Edge-AI-Python-Plug-in/blob/main/images/pythoninstart.jpg)
+
+![image](https://github.com/LILINOpenGitHub/LILIN-Edge-AI-Python-Plug-in/blob/main/images/python.jpg)
