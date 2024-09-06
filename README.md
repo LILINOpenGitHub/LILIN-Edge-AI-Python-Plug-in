@@ -25,4 +25,4 @@ After enabling both Python and AI plug-ins, please open AI plug-in.  Visit Syste
 
 The Python page is shown below:
 
-![image](https://github.com/LILINOpenGitHub/LILIN-Edge-AI-Python-Plug-in/blob/main/images/python.jpg)
+![image](https://github.com/LILINOpenGitHub/LILIN-Edge-AI-Python-Plug-in/blob/main/images/python1.jpg)
