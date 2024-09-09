@@ -24,5 +24,11 @@ After enabling both Python and AI plug-ins, please open AI plug-in.  Visit Syste
 ![image](https://github.com/LILINOpenGitHub/LILIN-Edge-AI-Python-Plug-in/blob/main/images/pythoninstart.jpg)
 
 The Python page is shown below:
-
+Upload: Upload a Python file.
+Refresh: Refresh the Python file list.
+Add: Add a Python file.
+Delete: Delete a Python file.
+Play: Run the selected Python file.
+Save: Save a Python file.
+Clean: Clean the message box.
 ![image](https://github.com/LILINOpenGitHub/LILIN-Edge-AI-Python-Plug-in/blob/main/images/python1.jpg)
