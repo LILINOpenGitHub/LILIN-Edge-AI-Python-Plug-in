@@ -30,5 +30,5 @@ Add: Add a Python file. <BR>
 Delete: Delete a Python file. <BR>
 Play: Run the selected Python file. <BR>
 Save: Save a Python file. <BR>
-Clean: Clean the message box. <BR>
+Clean: Clean the message box. <BR> <BR>
 ![image](https://github.com/LILINOpenGitHub/LILIN-Edge-AI-Python-Plug-in/blob/main/images/python1.jpg)
