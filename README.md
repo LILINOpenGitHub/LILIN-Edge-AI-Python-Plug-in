@@ -21,6 +21,7 @@ Support import JSON, HTTP, HTTPs, DNS, socket, date &time, base64, file IO read/
 
 ### Installation ###
 After installing Python plug-in, you will see AI plug-in and Python plug-in.  Make sure that both plug-ins are checked.
+
 ![image](https://github.com/LILINOpenGitHub/LILIN-Edge-AI-Python-Plug-in/blob/main/images/imgupdate.jpg)
 
 ### Open Python Editor ###
