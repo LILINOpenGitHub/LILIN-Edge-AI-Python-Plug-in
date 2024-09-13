@@ -39,3 +39,9 @@ Play: Run the selected Python file. <BR>
 Save: Save a Python file. <BR>
 Clean: Clean the message box. <BR> <BR>
 ![image](https://github.com/LILINOpenGitHub/LILIN-Edge-AI-Python-Plug-in/blob/main/images/python1.jpg)
+
+### Hello World ###
+The first Python program is Hello World.  Click on hello.py file and click on Play button for the program.
+
+![image](https://github.com/LILINOpenGitHub/LILIN-Edge-AI-Python-Plug-in/blob/main/images/imghello.jpg)
+
