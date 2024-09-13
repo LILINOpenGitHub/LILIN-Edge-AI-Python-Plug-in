@@ -11,6 +11,9 @@ The Python plug-in can be downloaded [here](https://www.dropbox.com/scl/fo/tkb9q
 (2)	Allow a devloper to use JSON for writing JSON configuration file. <BR>
 (3)	Allow a devloper to use to communicate a HTTPs cloud. <BR>
 
+### Prerequisites
+Please make sure that both LILIN Edge AI Plug-in and the Python Plug-in are installed on the camera.
+
 ### Support Python imports
 Support import JSON, HTTP, HTTPs, DNS, socket, date &time, base64, file IO read/write
 
