@@ -45,6 +45,11 @@ The first Python program is Hello World.  Click on hello.py file and click on Pl
 
 ![image](https://github.com/LILINOpenGitHub/LILIN-Edge-AI-Python-Plug-in/blob/main/images/imghello.jpg)
 
+### main.py ###
+Get AI metadata of recognition objects.
+Get AI-plug configuration.
+Demo how to communicate to a remote cloud.
+
 ### DetectionZone.py ###
 The Python code is to get detection zone information including X and Y.
 
