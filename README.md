@@ -45,3 +45,23 @@ The first Python program is Hello World.  Click on hello.py file and click on Pl
 
 ![image](https://github.com/LILINOpenGitHub/LILIN-Edge-AI-Python-Plug-in/blob/main/images/imghello.jpg)
 
+### DetectionZone.py ###
+The Python code is to get detection zone information including X and Y.
+
+### ZoneSetting.py ###
+The Python code is to set detection zone.
+
+### FilterSetting.py ###
+The Python code is to set the confidence filter for AI objects.
+
+### ZoneBehavior.py ###
+The Python code is to set behavior of a detection zone.
+
+### ObjectClassification.py ###
+The Python code is to enable or to disable the classified objects.
+
+### LPR.py ###
+The python code is to set and to get the confidence of license plate recognition.
+
+### GetBase64JPEG.py ###
+The python code is to get the JPEG snapshot of the camera in base64.
