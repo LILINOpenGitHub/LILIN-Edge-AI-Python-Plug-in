@@ -14,6 +14,8 @@ The Python plug-in can be downloaded [here](https://www.dropbox.com/scl/fo/tkb9q
 ### Prerequisites
 Please make sure that both LILIN Edge AI Plug-in and the Python Plug-in are installed on the camera.
 
+![image](https://github.com/LILINOpenGitHub/LILIN-Edge-AI-Python-Plug-in/blob/main/images/imgPlugin.jpg)
+
 ### Support Python imports
 Support import JSON, HTTP, HTTPs, DNS, socket, date &time, base64, file IO read/write
 
