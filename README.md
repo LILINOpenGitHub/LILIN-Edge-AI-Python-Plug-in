@@ -5,7 +5,7 @@ The purpose of the Python is to allow a developer to write Python script running
 
 There are two plug-in needed for running Python (1) LILIN Python environment plug-in, (2) LILIN AI plug-in. 
 
-(1) The Python environment plug-in can be downloaded [here](https://www.dropbox.com/scl/fo/9glq8s9qlf66w0xqueoml/AEEVVi9JuvTXzzYHkZfkRz4?rlkey=m80ja29siz2tkfjwgi36cp8xj&dl=0).
+(1) The Python environment plug-in can be downloaded [here](https://www.dropbox.com/scl/fo/9glq8s9qlf66w0xqueoml/AEEVVi9JuvTXzzYHkZfkRz4?rlkey=m80ja29siz2tkfjwgi36cp8xj&dl=0). <BR>
 (2) LILIN AI plug-in can be downloaded [here](https://www.dropbox.com/scl/fo/lhh4atrb8jm3ynh512f4z/AArDr7YB3J7yXs98GDf1d8g?rlkey=30f1j99gsrd0a5omrh13hg2y4&dl=0).
 
 ![image](https://github.com/LILINOpenGitHub/LILIN-Edge-AI-Python-Plug-in/blob/main/images/diagram.jpg)
