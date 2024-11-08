@@ -27,27 +27,37 @@ def SysCmd(cmd):
 
 def PrintCurlResponse(content, type="text"):
     if type == "json":
-        print(json.dumps(json.loads(content[0]), indent=4))
+        try:
+            json_data = json.dumps(json.loads(content[0]), indent=4)
+        except Exception as e:
+            json_data = content[0]
+            print(e)
+        print(json_data)
     else: #default to text
         for line in content:
-            print(line.decode("UTF-8"), end="")
+            try:
+                decode_line = line.decode("UTF-8")
+            except Exception as e:
+                decode_line = line
+                print(e) 
+            print(decode_line, end="")
         print("")
 
-def GetServerConfig(port=80):
+def GetServerConfig(i_port=80):
     global localIp
-    api = f"http://{localIp}:{port}/server"
+    api = f"http://{localIp}:{i_port}/server"
     response = SysCmd(f"curl --silent {api}")
     PrintCurlResponse(response)
 
-def GetLicenseConfig(port=8592):
+def GetLicenseConfig(i_port=8592):
     global localIp, pluginUserName, pluginPassword
-    api = f"http://{pluginUserName}:{pluginPassword}@{localIp}:{port}/getconfig?ch=about_box"
+    api = f"http://{pluginUserName}:{pluginPassword}@{localIp}:{i_port}/getconfig?ch=about_box"
     response = SysCmd(f"curl --silent {api}")
-    PrintCurlResponse(response, type="json")
+    PrintCurlResponse(response)
 
-def GetZoneConfig(port=8592, zone=0):
+def GetZoneConfig(i_port=8592, i_zone=0):
     global localIp, pluginUserName, pluginPassword
-    api = f"http://{pluginUserName}:{pluginPassword}@{localIp}:{port}/getconfig?ch=1&detection_zone={zone}"
+    api = f"http://{pluginUserName}:{pluginPassword}@{localIp}:{i_port}/getconfig?ch=1&detection_zone={i_zone}"
     response = SysCmd(f"curl --silent {api}")
     PrintCurlResponse(response, type="json")
 
@@ -55,15 +65,15 @@ def GetHttpsResponse(url):
     response = SysCmd(f"curl -k -L --silent {url}")
     PrintCurlResponse(response)
 
-def GetAIMetaData(port=8592):
+def GetAIMetaData(i_port=8592):
     global localIp, pluginUserName, pluginPassword, socketBufferSize, getMetadata
     account = f"{pluginUserName}:{pluginPassword}"
     accountBase64 = str((base64.b64encode(account.encode())).decode())
 
     clientSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    clientSocket.connect((localIp, port))
+    clientSocket.connect((localIp, i_port))
 
-    requestHeader = f"GET /getalarmmotion HTTP/1.1\r\nCookie: ipcam_lang=0\r\nHost: {localIp}:{port}\r\nAuthorization: Basic {accountBase64}\r\n\r\n"
+    requestHeader = f"GET /getalarmmotion HTTP/1.1\r\nCookie: ipcam_lang=0\r\nHost: {localIp}:{i_port}\r\nAuthorization: Basic {accountBase64}\r\n\r\n"
     clientSocket.send(requestHeader.encode())
 
     errorCounter = 0
@@ -88,22 +98,55 @@ def GetAIMetaData(port=8592):
 # --------------------------------------------------
 
 def main():
+    print("Call hello.py function")
     PrintHelloWorld()
 
-    # Communicate with LILIN IP camera service at port 80
-    GetServerConfig(port=80)
+    print("Get server configuration")
+    GetServerConfig(i_port=80)
+    
+    print("Get client configuration")
+    GetServerConfig(i_port=8592)
 
-    # Communicate with LILIN Aida plug-in at port 5892
-    GetServerConfig(port=8592)
-    GetLicenseConfig(port=8592)
-    GetZoneConfig(port=8592, zone=0)
-
-    # Communicate with HTTPs via curl
+    print("Get license configuration")
+    GetLicenseConfig(i_port=8592)
+    
+    print("Get zone configuration")
+    GetZoneConfig(i_port=8592, i_zone=0)
+    
+    print("Get HTTPS response")
     GetHttpsResponse("https://event.ddnsipcam.com/")
 
-    # Get the objection meta data (JSON) from /getalarmmotion CGI at port 8592
-    GetAIMetaData(port=8592)
+    print("Get AI metadata")
+    GetAIMetaData(i_port=8592)
+
 
 if __name__ == '__main__':
     sys.stdout = codecs.getwriter("utf-8")(sys.stdout.detach()) # avoiding UnicodeEncodeError in HTML file
     main()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
