@@ -19,6 +19,17 @@ Please make sure that both LILIN Edge AI Plug-in and the Python Plug-in are inst
 
 ![image](https://github.com/LILINOpenGitHub/LILIN-Edge-AI-Python-Plug-in/blob/main/images/imgPlugin.jpg)
 
+### Manually enable the Python service from AI plugin.
+Syntax:
+```
+http://<serverIP:8592>/setconfig?ch=system_setting&enable_cloud=Yes
+```
+### Save the change
+Syntax:
+```
+http://<serverIP:8592>/getconfig?reload=1
+```
+
 ### Support Python imports
 Support import JSON, HTTP, HTTPs, DNS, socket, date &time, base64, file IO read/write
 
