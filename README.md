@@ -29,7 +29,7 @@ Syntax:
 ```
 http://<serverIP:8592>/getconfig?reload=1
 ```
-
+![image](https://github.com/LILINOpenGitHub/LILIN-Edge-AI-Python-Plug-in/blob/main/images/enable.jpg)
 ### Support Python imports
 Support import JSON, HTTP, HTTPs, DNS, socket, date &time, base64, file IO read/write
 
